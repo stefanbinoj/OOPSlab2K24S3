@@ -38,7 +38,7 @@ class TRF extends JFrame implements ActionListener{
 
         lpanel.setPreferredSize(new Dimension(300,400));
 
-        setLayout(new BorderLayout());
+        //setLayout(new BorderLayout());
         add(bpanel,BorderLayout.SOUTH);
         add(lpanel,BorderLayout.CENTER);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
