@@ -10,11 +10,10 @@ public class shapes extends JFrame{
 
     }
     public void paint(Graphics g){
-        g.drawOval(60,60,30,50);
-        g.drawRect(40,30,40,60);
+         g.drawOval(40, 40, 60, 60); // Circle
         g.drawRect(80, 30, 200, 200); // Square
         g.drawRect(200, 100, 100, 200); // Rectangle
-        g.drawString("Drawing shapes", 10, 10);
+        g.drawString("Drawing shapes", 100, 100);
         setBackground(Color.WHITE);
         g.fillRect(130, 30, 100, 80); // Rectangle
         g.drawOval(30, 130, 50, 60); // Circle
